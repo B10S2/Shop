@@ -1,0 +1,195 @@
+************************************************
+Create Procedure AddGood
+@Name nvarchar(255),
+@Category nvarchar(100),
+@Barcode nvarchar(50),
+@PriceOut real
+AS
+	Declare @idCategory int
+	Select @idCategory = id From tblCategoryes Where cName = @Category
+
+Begin
+	Insert INTO tblGoods (gName, idCategory, Barcode, PriceOut) values
+	(
+		@Name, @idCategory, @Barcode, @PriceOut
+	)
+End
+************************************************
+Create Trigger AddBalance
+ON tblWareHouse
+For Insert
+AS
+
+Begin
+	Declare @idGoods int, @Count int
+	
+	Select @idGoods = idGoods From inserted
+	Select @Count = gCount From inserted
+	
+	if not exists (Select id From tblBalance Where idGoods = @idGoods)
+	Begin
+		Insert INTO tblBalance (idGoods, gCount) values (@idGoods, @Count)
+	End
+	else
+	Begin
+		Update tblBalance Set gCount = gCount + @Count Where idGoods = @idGoods
+	End
+End
+************************************************
+Create Trigger DeleteBalance
+ON tblWareHouse
+After Delete
+AS
+Begin
+	Declare @idGoods int, @Count int
+	
+	Select @idGoods = idGoods From deleted
+	Select @Count = gCount From deleted
+	
+	Update tblBalance Set gCount = gCount - @Count Where idGoods = @idGoods
+End
+************************************************
+Create Procedure GetGoodsTODay
+As
+Begin
+	DECLARE @dateStart DATETIME, @dateEnd DATETIME;
+    SET     @dateStart = CONVERT(varchar(8), GETDATE(), 112)
+    SET     @dateEnd = @dateStart + 1;
+	print @dateStart
+	print @dateEnd
+	Select g.id, g.gName, c.cName, g.Barcode, w.gCount, w.PriceIn, w.DateIn, w.id
+	From tblGoods g, tblCategoryes c, tblWareHouse w 
+	Where g.idCategory = c.id and w.idGoods = g.id and w.DateIn >= @dateStart and w.DateIn <= @dateEnd
+End
+
+************************************************
+Create Procedure Sale
+@idGood int, @Count int, @idUser int, @id int output
+AS
+	Declare @PriceOut real, @Balance int
+	Select @Balance = gCount From tblBalance Where idGoods = @idGood
+	Select @PriceOut = PriceOut From tblGoods Where id = @idGood
+Begin
+	if(@Balance < @Count)
+		return
+		
+	INSERT INTO tblSales (idGood, PriceOut, DateOut, SaleCount, idUser) values
+	(
+		@idGood, @PriceOut, GETDATE(), @Count, @idUser
+	)
+	
+	Select @id = id From tblSales Where id = (Select MAX(id) From tblSales)
+End
+************************************************
+Create Trigger SaleBalance
+ON tblSales
+For Insert
+AS
+Begin
+	Declare @idGoods int, @Count int
+	
+	Select @idGoods = idGood From inserted
+	Select @Count = SaleCount From inserted
+	
+	Update tblBalance Set gCount = gCount - @Count Where idGoods = @idGoods
+End
+************************************************
+Create Procedure AddCashOperation
+@Cash real, @Operation nvarchar(255), @idUser int, @id int output
+AS
+	Declare @CurBalance real
+	Select @CurBalance = CurrentBalance From tblCash Where id = (Select MAX(id) From tblCash)
+Begin
+	if(@Operation like 'Инкасация')
+	Begin
+		if(@CurBalance >= @Cash)
+		Begin
+		Set @CurBalance = @CurBalance - @Cash
+		Insert INTO tblCash(CurrentBalance, Operation, Cash, idUser, DateOut) values
+		(
+			@CurBalance, @Operation, @Cash, @idUser, GETDATE()
+		)
+		
+		Select @id = id From tblCash Where id = (Select MAX(id) From tblCash)
+		End
+	End
+	Else
+	Begin
+		Set @CurBalance = @CurBalance + @Cash
+		Insert INTO tblCash(CurrentBalance, Operation, Cash, idUser, DateOut) values
+		(
+			@CurBalance, @Operation, @Cash, @idUser, GETDATE()
+		)
+	
+		Select @id = id From tblCash Where id = (Select MAX(id) From tblCash)
+	End
+End
+************************************************
+Create Procedure GetOperationsTODay
+As
+Begin
+	DECLARE @dateStart DATETIME, @dateEnd DATETIME;
+    SET     @dateStart = CONVERT(varchar(8), GETDATE(), 112)
+    SET     @dateEnd = @dateStart + 1;
+	Select *
+	From tblCash
+	Where DateOut >= @dateStart and DateOut <= @dateEnd and Operation <> 'Test'
+End
+************************************************
+
+Create Procedure GetGoodsOperation
+@idCash int
+As
+Begin
+	Select g.id, g.Barcode, g.gName, s.PriceOut, s.SaleCount
+	From tblSales s, tblGroupeSales gs, tblGoods g
+	Where s.idGood = g.id and
+	gs.idSales = s.id and
+	gs.idCash = @idCash
+End
+************************************************
+
+Create Procedure GetStartDayBalance
+As
+Begin
+	DECLARE @dateTmp DATETIME
+    SET     @dateTmp = CONVERT(varchar(8), GETDATE(), 112)
+	Select CurrentBalance
+	From tblCash
+	Where id = (Select MAX(id) From tblCash Where DateOut < @dateTmp)
+End
+************************************************
+Create Procedure GetGood
+@Barcode nvarchar(50)
+AS
+	Declare @Cnt int
+	Set @Cnt = 0
+	Select @Cnt = gCount From tblBalance Where idGoods = (Select id From tblGoods Where Barcode like @Barcode)
+Begin
+	Select g.id, g.gName, c.cName, g.Barcode, g.PriceOut, @Cnt
+	From tblGoods g, tblCategoryes c
+	Where g.idCategory = c.id and
+	g.Barcode like @Barcode	
+End
+************************************************
+
+Insert INTO tblRoles (rName) values ('Администратор')
+go
+Insert INTO tblRoles (rName) values ('Зав. Складом')
+go
+Insert INTO tblRoles (rName) values ('Продавец')
+
+go
+
+Insert INTO tblUsers(idRole, UsLogin, Pass, Phone, lName, fName) values 
+(
+(Select id From tblRoles Where rName like 'Администратор'),
+'Test',
+'8bc715984b40ef85cfd3bf6b2e6c17c0',
+'+38 097 000 00 00',
+'Test',
+'Test'
+)
+go
+Insert Into tblCash (CurrentBalance, Operation, Cash, DateOut, idUser) values 
+(0, 'Test', 0, GETDATE(), 1)

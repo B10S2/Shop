@@ -1,0 +1,86 @@
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.addCategory.resources
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddGood.resources
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Form1.resources
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Properties.Resources.resources
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csproj.GenerateResource.Cache
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe.config
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.pdb
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.exe
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.pdb
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.ReceiptGood.resources
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.ChangeInsertedToday.resources
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csprojResolveAssemblyReference.cache
+C:\Users\NAME\Documents\Visual Studio 2012\Projects\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.InsertBarcode.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe.config
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.exe
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.pdb
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.pdb
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddCategory.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddGood.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Form1.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Properties.Resources.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.ReceiptGood.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csproj.GenerateResource.Cache
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Authorization.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.BarcodeIn.resources
+C:\Users\Serg\Desktop\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csprojResolveAssemblyReference.cache
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe.config
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.exe
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.pdb
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.pdb
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csprojResolveAssemblyReference.cache
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddCategory.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddGood.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Authorization.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.BarcodeIn.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Form1.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Properties.Resources.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.ReceiptGood.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csproj.GenerateResource.Cache
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe.config
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.exe
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.pdb
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.pdb
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csprojResolveAssemblyReference.cache
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddCategory.resources
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddGood.resources
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Authorization.resources
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.BarcodeIn.resources
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Form1.resources
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Properties.Resources.resources
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.ReceiptGood.resources
+F:\777\Магазин\Магазин\Магазин\ShopWarehouse\ShopWarehouse2\ShopWarehouse2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csproj.GenerateResource.Cache
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe.config
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.exe
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.pdb
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.pdb
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csprojResolveAssemblyReference.cache
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddCategory.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddGood.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Authorization.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.BarcodeIn.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Form1.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Properties.Resources.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.ReceiptGood.resources
+C:\Users\Serg\Desktop\Магазин\ShopWarehouse2_1\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csproj.GenerateResource.Cache
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe.config
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.pdb
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddCategory.resources
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.AddGood.resources
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Authorization.resources
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.BarcodeIn.resources
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Form1.resources
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.Properties.Resources.resources
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.ReceiptGood.resources
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.csproj.GenerateResource.Cache
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.exe
+C:\Users\HomeSerg\Desktop\Магазин\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.pdb
+C:\Users\Serg\Desktop\Магазин v2\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\bin\Debug\ShopWarehouse.exe.config
+C:\Users\Serg\Desktop\Магазин v2\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.exe
+C:\Users\Serg\Desktop\Магазин v2\ShopWarehouse2_2\ShopWarehouse\ShopWarehouse\obj\Debug\ShopWarehouse.pdb

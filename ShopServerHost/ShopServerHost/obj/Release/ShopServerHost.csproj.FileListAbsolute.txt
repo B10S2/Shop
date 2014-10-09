@@ -1,0 +1,10 @@
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.exe.config
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.exe
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.pdb
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServer.dll
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Release\ShopServerHost.csprojResolveAssemblyReference.cache
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Release\ShopServerHost.ProjectInstaller.resources
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Release\ShopServerHost.ShopServerHost.resources
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Release\ShopServerHost.csproj.GenerateResource.Cache
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Release\ShopServerHost.exe
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Release\ShopServerHost.pdb

@@ -1,0 +1,13 @@
+﻿Выполняется установка сборки 'C:\Users\Serg\Documents\Visual Studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Serg\Documents\Visual Studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.InstallLog
+   assemblypath = C:\Users\Serg\Documents\Visual Studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.exe
+Устанавливается служба ShopServer...
+Служба ShopServer успешно установлена.
+Создается исходный EventLog ShopServer в журнале Application...
+Выполняется фиксация сборки 'C:\Users\Serg\Documents\Visual Studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = C:\Users\Serg\Documents\Visual Studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.InstallLog
+   assemblypath = C:\Users\Serg\Documents\Visual Studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Release\ShopServerHost.exe

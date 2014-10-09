@@ -1,0 +1,6 @@
+c:\users\serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Debug\ShopServerHost.exe.config
+c:\users\serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Debug\ShopServerHost.exe
+c:\users\serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\bin\Debug\ShopServerHost.pdb
+c:\users\serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Debug\ShopServerHost.csprojResolveAssemblyReference.cache
+c:\users\serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Debug\ShopServerHost.exe
+c:\users\serg\documents\visual studio 2012\Projects\ShopServerHost\ShopServerHost\obj\Debug\ShopServerHost.pdb

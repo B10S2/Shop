@@ -1,0 +1,24 @@
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServer\ShopServer\bin\Release\ShopServer.dll.config
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServer\ShopServer\bin\Release\ShopServer.dll
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServer\ShopServer\bin\Release\ShopServer.pdb
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServer\ShopServer\obj\Release\ShopServer.csprojResolveAssemblyReference.cache
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServer\ShopServer\obj\Release\ShopServer.dll
+C:\Users\Serg\documents\visual studio 2012\Projects\ShopServer\ShopServer\obj\Release\ShopServer.pdb
+C:\Users\HomeSerg\Desktop\Магазин\ShopServer\ShopServer\bin\Release\ShopServer.dll.config
+C:\Users\HomeSerg\Desktop\Магазин\ShopServer\ShopServer\bin\Release\ShopServer.dll
+C:\Users\HomeSerg\Desktop\Магазин\ShopServer\ShopServer\bin\Release\ShopServer.pdb
+C:\Users\HomeSerg\Desktop\Магазин\ShopServer\ShopServer\obj\Release\ShopServer.csprojResolveAssemblyReference.cache
+C:\Users\HomeSerg\Desktop\Магазин\ShopServer\ShopServer\obj\Release\ShopServer.dll
+C:\Users\HomeSerg\Desktop\Магазин\ShopServer\ShopServer\obj\Release\ShopServer.pdb
+C:\Users\Serg_Home\Desktop\Магазин\ShopServer\ShopServer\bin\Release\ShopServer.dll.config
+C:\Users\Serg_Home\Desktop\Магазин\ShopServer\ShopServer\bin\Release\ShopServer.dll
+C:\Users\Serg_Home\Desktop\Магазин\ShopServer\ShopServer\bin\Release\ShopServer.pdb
+C:\Users\Serg_Home\Desktop\Магазин\ShopServer\ShopServer\obj\Release\ShopServer.csprojResolveAssemblyReference.cache
+C:\Users\Serg_Home\Desktop\Магазин\ShopServer\ShopServer\obj\Release\ShopServer.dll
+C:\Users\Serg_Home\Desktop\Магазин\ShopServer\ShopServer\obj\Release\ShopServer.pdb
+C:\Users\Serg\Desktop\Магазин v2\ShopServer\ShopServer\bin\Release\ShopServer.dll.config
+C:\Users\Serg\Desktop\Магазин v2\ShopServer\ShopServer\bin\Release\ShopServer.dll
+C:\Users\Serg\Desktop\Магазин v2\ShopServer\ShopServer\bin\Release\ShopServer.pdb
+C:\Users\Serg\Desktop\Магазин v2\ShopServer\ShopServer\obj\Release\ShopServer.dll
+C:\Users\Serg\Desktop\Магазин v2\ShopServer\ShopServer\obj\Release\ShopServer.pdb
+C:\Users\Serg\Desktop\Магазин v2\ShopServer\ShopServer\obj\Release\ShopServer.csprojResolveAssemblyReference.cache

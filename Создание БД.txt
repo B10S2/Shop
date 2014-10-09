@@ -1,0 +1,91 @@
+Create Table tblCategoryes
+(
+id int identity(1,1) not null primary key,
+cName nvarchar(100)
+)
+go
+
+Create Table tblGoods
+(
+id int identity(1,1) not null primary key,
+gName nvarchar(255) not null,
+idCategory int not null,
+Barcode	nvarchar(50) not null,
+PriceOut real
+)
+
+go
+
+Create Table tblWareHouse
+(
+id int identity(1,1) not null primary key,
+idGoods int not null,
+PriceIn real,
+gCount int not null,
+DateIn DateTime not null
+)
+go
+
+Create Table tblSales
+(
+id int identity(1,1) not null primary key,
+idGood int not null,
+PriceOut real not null,
+DateOut DateTime not null,
+SaleCount int not null,
+idUser int
+)
+
+go
+
+Create Table tblReturnGood
+(
+id int identity(1,1) not null primary key,
+idSales int not null,
+idGood int not null,
+DateReturn DateTime not null,
+idUser int not null
+)
+
+go
+
+Create Table tblBalance
+(
+id int identity(1,1) not null primary key,
+idGoods int not null,
+gCount int
+)
+
+go
+
+Create Table tblCash
+(
+id int identity(1,1) not null primary key,
+CurrentBalance real not null,
+Operation nvarchar(255) not null,
+Cash real not null,
+DateOut DateTime,
+idUser int not null
+)
+
+Create Table tblUsers(
+id int identity(1,1) not null primary key,
+idRole int not null,
+UsLogin nvarchar(255) not null, 
+Pass nvarchar(255) not null,
+Phone nvarchar(30),
+lName nvarchar(100) not null,
+fName nvarchar(100) not null
+)
+Go
+Create Table tblRoles(
+id int identity(1,1) not null primary key,
+rName nvarchar(50)
+)
+Go
+Create Table tblGroupeSales
+(
+id int identity(1,1) not null primary key,
+idSales int,
+idCash int
+)

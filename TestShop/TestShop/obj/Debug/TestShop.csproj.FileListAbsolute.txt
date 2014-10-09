@@ -1,0 +1,30 @@
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\obj\Debug\TestShop.Form1.resources
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\obj\Debug\TestShop.Properties.Resources.resources
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\obj\Debug\TestShop.Users.resources
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\obj\Debug\TestShop.csproj.GenerateResource.Cache
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\bin\Debug\TestShop.exe.config
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\bin\Debug\TestShop.exe
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\bin\Debug\TestShop.pdb
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\obj\Debug\TestShop.exe
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\obj\Debug\TestShop.pdb
+c:\users\serg\documents\visual studio 2012\Projects\TestShop\TestShop\obj\Debug\TestShop.csprojResolveAssemblyReference.cache
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\bin\Debug\TestShop.exe.config
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.exe
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.pdb
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\bin\Debug\TestShop.exe
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\bin\Debug\TestShop.pdb
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.csprojResolveAssemblyReference.cache
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.Form1.resources
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.Properties.Resources.resources
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.Users.resources
+C:\Users\HomeSerg\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.csproj.GenerateResource.Cache
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\bin\Debug\TestShop.exe.config
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.exe
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.pdb
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\bin\Debug\TestShop.exe
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\bin\Debug\TestShop.pdb
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.csprojResolveAssemblyReference.cache
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.Form1.resources
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.Properties.Resources.resources
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.Users.resources
+C:\Users\Serg_Home\Desktop\Магазин\TestShop\TestShop\obj\Debug\TestShop.csproj.GenerateResource.Cache

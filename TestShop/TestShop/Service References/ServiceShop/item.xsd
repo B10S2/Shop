@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ShopServer" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ShopServer" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8737/Shop/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Err" type="xs:int" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pass" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Role" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+  <xs:complexType name="Good">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Barcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Count" type="xs:int" />
+      <xs:element minOccurs="0" name="DateIn" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Err" type="xs:int" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PriceIn" type="xs:double" />
+      <xs:element minOccurs="0" name="PriceOut" type="xs:double" />
+      <xs:element minOccurs="0" name="idWare" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Good" nillable="true" type="tns:Good" />
+  <xs:complexType name="ArrayOfGood">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Good" type="tns:Good" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGood" nillable="true" type="tns:ArrayOfGood" />
+  <xs:complexType name="ArrayOfCashOperation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CashOperation" type="tns:CashOperation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCashOperation" nillable="true" type="tns:ArrayOfCashOperation" />
+  <xs:complexType name="CashOperation">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CashBalance" type="xs:double" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="PriceOperation" type="xs:double" />
+      <xs:element minOccurs="0" name="TimeOpertion" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TypeOperation" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CashOperation" nillable="true" type="tns:CashOperation" />
+</xs:schema>

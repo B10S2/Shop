@@ -1,0 +1,60 @@
+Alter Table tblCategoryes
+Add constraint uqCat unique (cName)
+
+go
+
+ALTER TABLE tblUsers
+Add Constraint uqLogin unique (UsLogin),
+constraint fkUser foreign key (idRole) References tblRoles (id)
+
+go
+
+ALTER TABLE tblGoods
+Add Constraint fkCatg Foreign Key (idCategory)
+References tblCategoryes(id),
+Constraint uqBarcode unique (Barcode),
+Constraint uqgName unique (gName)
+
+go
+
+ALTER TABLE tblSales
+Add Constraint fkGood Foreign Key (idGood)
+References tblGoods(id),
+Constraint fkSaleUs Foreign Key (idUser)
+References tblUsers(id)
+
+go
+
+ALTER TABLE tblReturnGood
+Add Constraint fkSale Foreign Key (idSales)
+References tblSales(id),
+Constraint fkRetGood Foreign Key (idGood)
+References tblGoods(id),
+Constraint fkRetUs Foreign Key (idUser)
+References tblUsers(id)
+
+go
+
+ALTER TABLE tblWareHouse
+Add Constraint fkWareGood Foreign Key (idGoods)
+References tblGoods(id)
+
+go
+
+ALTER TABLE tblBalance
+Add Constraint fkBalGood Foreign Key (idGoods)
+References tblGoods(id)
+
+go
+
+ALTER TABLE tblCash
+Add Constraint fkCashUs Foreign Key (idUser)
+References tblUsers(id)
+
+go
+
+Alter Table tblGroupeSales
+Add Constraint fkSaleGrSl Foreign Key (idSales)
+References tblSales (id),
+Constraint fkCashGrSl Foreign Key (idCash)
+References tblCash (id)

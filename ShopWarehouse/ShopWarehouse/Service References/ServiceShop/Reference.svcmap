@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="662abbd7-c4f7-4924-91af-4dfc81fc56ae" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8737/Shop/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="5e49543a-cfbe-4267-9235-76c7d55c0e8f" SourceId="1" SourceUrl="http://localhost:8737/Shop/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="e31eb5a5-0814-485b-b76b-af94b5b3d27c" SourceId="1" SourceUrl="http://localhost:8737/Shop/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="ac28aff2-30ad-40d0-a65b-2bace3e3063a" SourceId="1" SourceUrl="http://localhost:8737/Shop/?xsd=xsd0" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="344491bb-5581-48ab-bb4e-90e9ed3a977b" SourceId="1" SourceUrl="http://localhost:8737/Shop/?xsd=xsd1" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="09a0f885-aaec-4f19-b31e-b4cb76d6ac12" SourceId="1" SourceUrl="http://localhost:8737/Shop/?xsd=xsd3" />
+    <MetadataFile FileName="Shop.wsdl" MetadataType="Wsdl" ID="2f64a660-fadb-4b6b-a644-49f99cf0230e" SourceId="1" SourceUrl="http://localhost:8737/Shop/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
